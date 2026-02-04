@@ -62,20 +62,28 @@ Tracks:
 
 ---
 
-## 📁 Folder Structure
+## 📂 Project Folder Structure
+```
 sensor_monitor/
 │── sensors/
 │   └── sensor_simulator.py
+│
 │── processor/
 │   └── data_processor.py
+│
 │── storage/
 │   └── database.py
+│
 │── reports/
+│   └── report_generator.py
+│
 │── logs/
 │   ├── alerts.log
 │   └── critical_alerts.log
+│
 │── main.py
 │── README.md
+```
 
 ---
 
